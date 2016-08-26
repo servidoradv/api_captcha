@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  api_captcha:
+    image: servidoradv/api_captcha
+    restart: always
+
+    ports:
+      - "8050:8050"

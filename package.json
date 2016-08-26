@@ -1,0 +1,30 @@
+{
+  "name": "api_captcha",
+  "version": "1.0.0",
+  "description": "api para validação server-side do recaptcha  da google",
+  "main": "src/api_captcha.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/servidoradv/api_captcha.git"
+  },
+  "keywords": [
+    "servidoradv",
+    "cassel",
+    "ruzzarin",
+    "captcha",
+    "google"
+  ],
+  "author": "Nilson Soares, Tiago Stutz",
+  "bugs": {
+    "url": "https://github.com/servidoradv/api_captcha/issues"
+  },
+  "homepage": "https://github.com/servidoradv/api_captcha#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "request": "^2.73.0"
+  }
+}
